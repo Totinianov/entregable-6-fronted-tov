@@ -30,7 +30,7 @@ const ProductInCart = ({ prodCart }) => {
                 <div className="prodcart__subtotal">
                     <span className="prodcart__subtotal--label">Subtotal:</span>
                     <span className="prodcart__subtotal--value">
-                        {prodCart.product.price}{" "}
+                        {prodCart.product.price}
                     </span>
                 </div>
             </footer>
